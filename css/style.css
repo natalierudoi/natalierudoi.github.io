@@ -290,7 +290,7 @@ nav a {
 }
 }
 
-@media (min-width: 846px) and (max-width: 902px){
+@media (min-width: 847px) and (max-width: 902px){
   header {
     height: 120px;
   }
@@ -303,9 +303,10 @@ nav a {
 }
 }
 
-@media (min-width: 800px) and (max-width: 845px){
+@media (min-width: 800px) and (max-width: 846px){
   header {
     height: 120px;
+    font-size: 23px;
   }
 nav {
   height: 50px;
@@ -380,7 +381,6 @@ nav a {
   }
 nav {
   height: 50px;
-  text-align: left;
 }
 nav a {
   padding: 30px 2px 23px 2px;
