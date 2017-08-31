@@ -384,3 +384,21 @@ nav a {
     height: 175px;
   }
 }
+
+@media (min-width: 300px) and (max-width: 600px) {
+  table {
+    max-width: 400px;
+    padding-top: 10px;
+  }
+  caption {
+    font-size: 1.2em;
+    padding-top: 90px;
+  }
+  th, td {
+    font-size: 12px;
+    padding: 15px;
+  }
+  tfoot td {
+    font-size: .6em;
+  }
+}
