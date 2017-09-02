@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Roboto');
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Fredoka+One');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Gabriela|Italiana|Overlock+SC');
 
 body, header, nav, main {
   margin: 0;
@@ -24,7 +25,7 @@ header {
   padding-top: 30px;
   color: white;
   background: #27363f;
-  font-family: 'Fredoka One', sans-serif;
+  font-family: 'Gabriela', sans-serif;
 }
 
 /* Navigation */
@@ -234,6 +235,9 @@ nav a {
   padding: 21px 16px;
   font-size: 14px;
 }
+nav a:hover {
+  padding-bottom: 20px;
+}
 }
 
 @media (min-width: 903px) and (max-width: 958px){
@@ -247,11 +251,15 @@ nav a {
   padding: 20px 12px;
   font-size: 14px;
 }
+nav a:hover {
+  padding-bottom: 20px;
+}
 }
 
-@media (min-width: 847px) and (max-width: 902px){
+@media (min-width: 846px) and (max-width: 902px){
   header {
     height: 120px;
+    font-size: 24px;
   }
 nav {
   height: 50px;
@@ -260,9 +268,12 @@ nav a {
   padding: 23px 14px 21px 14px;
   font-size: 12px;
 }
+nav a:hover {
+  padding-bottom: 21px;
+}
 }
 
-@media (min-width: 800px) and (max-width: 846px){
+@media (min-width: 800px) and (max-width: 845px){
   header {
     height: 120px;
     font-size: 23px;
@@ -273,6 +284,9 @@ nav {
 nav a {
   padding: 23px 9px 21px 9px;
   font-size: 12px;
+}
+nav a:hover {
+  padding-bottom: 21px;
 }
 }
 
@@ -285,8 +299,11 @@ nav {
   height: 50px;
 }
 nav a {
-  padding: 25px 8px 21px 8px;
+  padding: 26px 8px 21px 8px;
   font-size: 10px;
+}
+nav a:hover {
+  padding-bottom: 21px;
 }
 }
 
@@ -299,22 +316,25 @@ nav {
   height: 50px;
 }
 nav a {
-  padding: 25px 4px 21px 4px;
+  padding: 26px 4px 21px 4px;
   font-size: 10px;
+}
+nav a:hover {
+  padding-bottom: 21px;
 }
 }
 
 @media (min-width: 535px) and (max-width: 619px){
   header {
-    height: 100px;
+    height: 90px;
     font-size: 14px;
   }
 nav {
   height: 50px;
 }
 nav a {
-  padding: 28px 4px 22px 4px;
-  font-size: 8px;
+  padding: 27px 3px 22px 3px;
+  font-size: 9px;
 }
 }
 
@@ -325,10 +345,12 @@ nav a {
   }
 nav {
   height: 50px;
+  padding: 1px 0;
+
 }
 nav a {
-  padding: 30px 4px 22px 4px;
-  font-size: 6px;
+  padding: 24px 2px 18px 2px;
+  font-size: 7.5px;
 }
 }
 
@@ -339,10 +361,11 @@ nav a {
   }
 nav {
   height: 50px;
+  padding: 1px 0;
 }
 nav a {
-  padding: 30px 2px 23px 2px;
-  font-size: 5.5px;
+  padding: 26px 2px 18px 2px;
+  font-size: 6.2px;
 }
 }
 
@@ -352,11 +375,24 @@ nav a {
     font-size: 7px;
   }
 nav {
+  height: 35px;
+  line-height: 0px;
+}
+nav a {
+  padding: 23px 1px 21px 1px;
+  font-size: 5.5px;
+}
+}
+
+@media (min-width: 300px) and (max-width: 350px){
+header {
   height: 50px;
+  line-height: 10px;
+  font-size: 5.5px;
 }
 nav a {
   padding: 23px 0px 21px 0px;
-  font-size: 5px;
+  font-size: 4.7px;
 }
 }
 
@@ -382,23 +418,5 @@ nav a {
   .contact-div img {
     width: 175px;
     height: 175px;
-  }
-}
-
-@media (min-width: 300px) and (max-width: 600px) {
-  table {
-    max-width: 400px;
-    padding-top: 10px;
-  }
-  caption {
-    font-size: 1.2em;
-    padding-top: 90px;
-  }
-  th, td {
-    font-size: 12px;
-    padding: 15px;
-  }
-  tfoot td {
-    font-size: .6em;
   }
 }
