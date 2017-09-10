@@ -28,16 +28,16 @@ header {
   font-size: 28.5px;
   letter-spacing: 5px;
   padding-top: 10px;
-  color: #fff;
-  background: #151515;
+  color: #131313;
+  background: #cccccc;
   font-family: 'Eras Light ITC', sans-serif;
 }
 
 /* Navigation */
 nav {
-  background: #1f1f1f;
+  background: #dedede;
   position: relative;
-  color: white;
+  color: #333333;
   width: 100%;
   height: 50px;
   text-align: center;
@@ -63,7 +63,7 @@ nav a {
 }
 
 nav a:hover {
-  background: #272727;
+  background: #d6d6d6;
 }
 
 .navScrolled {
