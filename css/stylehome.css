@@ -185,7 +185,8 @@ tfoot td {
   text-decoration: none;
   color: #fafafa;
   font-size: 20px;
-  border-radius: 6px;
+  border-radius: 7px;
+  letter-spacing: 2px;
   background: #272727;
   padding: 10px 10px;
 }
