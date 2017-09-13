@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Roboto');
-
-@font-face {
-font-family: 'Eras Light ITC';
-font-style: normal;
-font-weight: normal;
-src: local('Eras Light ITC'), url('ERASLGHT.woff') format('woff');
-}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 body, header, nav, main {
   margin: 0;
@@ -23,13 +17,13 @@ body {
 /* Title */
 header {
   text-align: center;
-  height: 130px;
+  height: 138px;
   font-size: 28.5px;
   letter-spacing: 5px;
   padding-top: 10px;
   color: #131313;
   background: #fafafa;
-  font-family: 'Eras Light ITC', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 /* Navigation */
@@ -61,15 +55,9 @@ nav a {
   padding: 20px;
 }
 
-.navScrolled {
-  top: 0;
-  z-index: 1;
-  box-shadow: 0px 1px 5px #000;
-}
-
 /* Home */
   #slider {
-    width: 46%;
+    width: 47%;
     overflow: hidden;
     margin: 0 auto;
     padding: 80px 0px 20px 0px;
@@ -106,49 +94,47 @@ nav a {
 }
 
 /* Lessons */
-table {
-  max-width: 500px;
-  padding-top: 20px;
-  margin: 10px auto;
-}
-
-caption {
-  font-size: 2.3em;
-  font-weight: 400;
-  padding-top: 100px ;
-  color: #2b343a;
-}
-
-thead th {
-  font-weight: 400;
-  background: #383838;
-  color: #ffff;
-}
-
-tr {
-  background: #676767;
-  color: #fff;
-}
-
-tr:nth-child(even) {
-  background: #8c8c8c;
-  color: #fff;
-}
-
-th, td {
+.caption {
+  color: #333;
+  font-size: 33px;
   text-align: center;
-  padding: 40px;
-  font-weight: 500;
+  padding-top: 80px;
+  letter-spacing: 2px;
 }
 
-tfoot tr {
-  background: none;
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 550px;
+  margin-top: 30px;
+  color: #333;
+}
+
+table td {
+  border: 2px solid black;
+  padding: 35px;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child{
+  border-left: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
 }
 
 tfoot td {
-  padding: 20px 2px 0px 2px;
-  font-size: .95em;
-  color: #6d767b;
+  padding: 30px 2px 0px 2px;
+  font-size: .85em;
   line-height: 1.5em;
 }
 
@@ -184,7 +170,7 @@ tfoot td {
 .contact-div a{
   text-decoration: none;
   color: #fafafa;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 7px;
   letter-spacing: 2px;
   background: #272727;
@@ -197,13 +183,13 @@ tfoot td {
   padding-top: 10px;
   padding-bottom: 0.05px;
   color: black;
-  font-size: 13px;
-  margin-bottom: -15px;
+  font-size: 9px;
+  margin-bottom: -12px;
 
 }
 
 .credits {
-  font-size: 11px;
+  font-size: 7px;
   text-align: center;
   text-transform: capitalize;
   color: black;
@@ -215,7 +201,7 @@ tfoot td {
 }
 
 .credits a {
-  font-size: 11.3px;
+  font-size: 7.3px;
   font-weight: 500;
   color: black;
   text-transform: capitalize;
@@ -224,6 +210,7 @@ tfoot td {
   letter-spacing: -.001px;
   font-family: 'Roboto', sans-serif;
 }
+
 
 @media (min-width: 959px) and (max-width: 1057px){
   header {
@@ -430,8 +417,8 @@ nav {
 }
 
 @media (min-width: 520px) and (max-width: 599px) {
-  caption {
-    font-size: 17px;
+  .caption {
+    font-size: 23px;
   }
 
   th, td {
@@ -440,7 +427,7 @@ padding: 30px;
 }
 
 @media (min-width: 220px) and (max-width: 519px) {
-  caption {
+  .caption {
     font-size: 17px;
   }
 
