@@ -82,7 +82,7 @@ nav a {
 }
 
 .right-side-bio img {
-  padding-top: 100px;
+  padding-top: 65px;
   width: 115%;
 }
 
@@ -453,15 +453,14 @@ nav {
   }
 }
 
-@media (min-width: 950px) and (max-width: 1149px){
+@media (min-width: 950px) and (max-width: 1190px){
 
   .left-side-bio p {
-    max-height: 540px;
     font-size: 12px;
   }
 
   .bio-paragraph{
-    max-height: 500px;
+    max-height: 450px;
     overflow: auto;
   }
 }
