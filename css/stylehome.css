@@ -439,3 +439,26 @@ padding: 30px;
     font-size: 9px;
   }
 }
+@media (min-width: 550px) and (max-width: 849px) {
+  #slider {
+    padding-top: 70px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 549px) {
+  #slider {
+    padding-top: 60px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 449px) {
+  #slider {
+    padding-top: 50px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 359px) {
+  #slider {
+    padding-top: 75px;
+  }
+}
