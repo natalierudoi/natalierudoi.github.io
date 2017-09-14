@@ -73,32 +73,36 @@ nav a {
 }
 
 .left-side-bio {
-  width: 60%;
+  width: 58%;
   float: left;
-  margin: 60px 20px 15px 20px;
+  margin: 60px 12px 15px 15px;
   background: #fafafa;
   color: #2b343a;
   font-family: 'Roboto', sans-serif;
 }
 
 .right-side-bio img {
-  padding-top: 40px;
+  padding-top: 100px;
+  width: 115%;
 }
 
 .left-side-bio p{
-  line-height: 1.55em;
-  max-height: 570px;
-  font-size: 14.2px;
-  overflow: auto;
+  line-height: 1.50em;
+  font-size: 13.3px;
   text-indent: 40px;
 }
 
 .right-side-bio {
-  width: 30%;
+  width: 33%;
   display: inline-block;
   background: #fafafa;
   margin-bottom: 20px;
   margin-top: 85px;
+}
+
+.bio-paragraph {
+  max-height: 530px;
+  overflow: auto;
 }
 
 /* Teaching Philosophy */
@@ -450,19 +454,6 @@ nav {
 }
 
 @media (min-width: 950px) and (max-width: 1149px){
-  .right-side-bio img {
-    padding-top: 20px;
-    width: 120%;
-    height: 550px;
-  }
-
-  .left-side-bio {
-    width: 59%;
-  }
-
-  .left-side-bio h2 {
-    font-size: 16px;
-  }
 
   .left-side-bio p {
     max-height: 540px;
@@ -470,225 +461,141 @@ nav {
   }
 
   .bio-paragraph{
-    max-height: 530px;
+    max-height: 500px;
     overflow: auto;
   }
 }
 
-@media (min-width: 850px) and (max-width: 949px){
-  .right-side-bio img {
-    padding-top: 24px;
-    width: 115%;
-    height: 450px;
-  }
+@media (min-width: 750px) and (max-width: 949px){
 
+.about-container {
+  margin-top: -80px;
+}
   .left-side-bio h2 {
-    font-size: 14px;
-    margin-bottom: 0px;
+  font-size: 14px;
+}
+  .left-side-bio p {
+    max-height: 540px;
+    font-size: 10px;
   }
 
-  .left-side-bio p {
-    font-size: 10.5px;
+  .right-side-bio img {
+    padding-top: 70px;
   }
 
   .bio-paragraph{
-    max-height: 460px;
+    max-height: 400px;
     overflow: auto;
-  }
-  .left-side-bio {
-    width: 59%;
   }
 }
 
-@media (min-width: 700px) and (max-width: 849px){
+@media (min-width: 600px) and (max-width: 749px){
 
   .about-container {
     margin-top: -80px;
   }
 
-  .right-side-bio img {
-    padding-top: 20px;
-    width: 105%;
-    height: 350px;
-  }
-
+.left-side-bio {
+  margin-left: 10px;
+}
   .left-side-bio h2 {
-    font-size: 12px;
-    margin-bottom: 0px;
+  font-size: 12px;
+}
+  .left-side-bio p {
+    max-height: 500px;
+    font-size: 9px;
   }
 
-  .left-side-bio p {
-    font-size: 10px;
-    line-height: 12px;
+  .right-side-bio img {
+    padding-top: 80px;
   }
 
   .bio-paragraph{
-    max-height: 350px;
+    max-height: 400px;
     overflow: auto;
   }
 }
 
-@media (min-width: 550px) and (max-width: 699px){
+@media (min-width: 450px) and (max-width: 599px){
 
   .about-container {
     margin-top: -80px;
   }
 
-  .right-side-bio img {
-    padding-top: 20px;
-    width: 105%;
-    height: 280px;
-  }
-
+.left-side-bio {
+  margin-left: 5px;
+}
   .left-side-bio h2 {
-    font-size: 10px;
-    margin-bottom: 0px;
-  }
-
+  font-size: 10px;
+}
   .left-side-bio p {
-    font-size: 8.5px;
+    font-size: 8px;
     line-height: 10px;
   }
 
+  .right-side-bio img {
+    padding-top: 70px;
+  }
+
   .bio-paragraph{
-    max-height: 310px;
+    max-height: 320px;
     overflow: auto;
   }
 }
 
-@media (min-width: 450px) and (max-width: 549px){
+@media (min-width: 350px) and (max-width: 449px){
 
   .about-container {
-    margin-top: -90px;
+    margin-top: -80px;
   }
 
-  .right-side-bio img {
-    padding-top: 10px;
-    width: 118%;
-    height: 220px;
-  }
-
+.left-side-bio {
+  margin-left: 10px;
+  width: 55%;
+}
   .left-side-bio h2 {
-    font-size: 9px;
-    margin-bottom: 0px;
-  }
-
+  font-size: 8px;
+}
   .left-side-bio p {
-    font-size: 7px;
+    font-size: 5px;
     line-height: 8px;
   }
 
-  .bio-paragraph{
-    max-height: 220px;
-    overflow: auto;
+  .right-side-bio img {
+    padding-top: 60px;
   }
 
-  .left-side-bio {
-    width: 57%;
-    margin-left: 10px;
+  .bio-paragraph{
+    max-height: 250px;
+    overflow: auto;
   }
 }
 
-@media (min-width: 380px) and (max-width: 449px){
+@media (min-width: 220px) and (max-width: 349px){
 
   .about-container {
-    margin-top: -90px;
+    margin-top: -80px;
   }
 
-  .right-side-bio img {
-    padding-top: 10px;
-    width: 115%;
-    height: 170px;
-  }
-
+.left-side-bio {
+  margin-left: 8px;
+  width: 54%;
+}
   .left-side-bio h2 {
-    font-size: 8px;
-    margin-bottom: 0px;
-  }
-
+  font-size: 8px;
+}
   .left-side-bio p {
-    font-size: 6px;
+    font-size: 5px;
     line-height: 8px;
   }
 
-  .bio-paragraph{
-    max-height: 200px;
-    overflow: auto;
-  }
-
-  .left-side-bio {
-    width: 56%;
-    margin-left: 10px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 379px){
-
-  .about-container {
-    margin-top: -90px;
-  }
-
   .right-side-bio img {
-    padding-top: 15px;
-    width: 110%;
-    height: 140px;
-  }
-
-  .left-side-bio h2 {
-    font-size: 6px;
-    margin-bottom: 0px;
-  }
-
-  .left-side-bio p {
-    font-size: 5px;
-    line-height: 7px;
+    padding-top: 40px;
   }
 
   .bio-paragraph{
-    max-height: 200px;
+    max-height: 180px;
     overflow: auto;
-  }
-
-  .left-side-bio {
-    width: 56%;
-    margin-left: 10px;
-  }
-}
-
-@media (min-width: 220px) and (max-width: 319px){
-
-  .about-container {
-    margin-top: -90px;
-  }
-
-  .right-side-bio img {
-    padding-top: 15px;
-    width: 110%;
-    height: 130px;
-  }
-
-  .left-side-bio h2 {
-    font-size: 6px;
-    margin-bottom: 0px;
-  }
-
-  .left-side-bio p {
-    font-size: 5px;
-    line-height: 6px;
-  }
-
-  .bio-paragraph{
-    max-height: 200px;
-    overflow: auto;
-  }
-
-  .left-side-bio {
-    width: 62%;
-    margin-left: 5px;
-    margin-right: 8px;
-  }
-  .right-side-bio {
-    width: 28%;
   }
 }
 
