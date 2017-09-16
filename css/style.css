@@ -421,8 +421,8 @@ nav {
 
 @media (min-width: 200px) and (max-width: 299px){
 header {
-  height: 8px;
-  line-height: 8px;
+  height: 10px;
+  line-height: 13px;
   font-size: 4.5px;
 }
 nav a {
