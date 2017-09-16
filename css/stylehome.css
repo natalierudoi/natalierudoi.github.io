@@ -357,7 +357,7 @@ nav a {
 
 @media (min-width: 300px) and (max-width: 350px){
 header {
-  height: 10px;
+  height: 15px;
   line-height: 10px;
   font-size: 5.5px;
 }
@@ -375,7 +375,7 @@ nav {
 
 @media (min-width: 200px) and (max-width: 299px){
 header {
-  height: 10px;
+  height: 15px;
   line-height: 13px;
   font-size: 4px;
   letter-spacing: 3px;
