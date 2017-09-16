@@ -408,6 +408,7 @@ header {
   height: 10px;
   line-height: 10px;
   font-size: 5.5px;
+  padding-bottom: 5px;
 }
 nav a {
   padding: 10px 0px 14px 0px;
@@ -427,6 +428,7 @@ header {
   line-height: 13px;
   font-size: 4px;
   letter-spacing: 3px;
+  padding-bottom: 5px;
 }
 nav a {
   padding: 10px 0px 14px 0px;
