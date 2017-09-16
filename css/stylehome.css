@@ -377,7 +377,8 @@ nav {
 header {
   height: 10px;
   line-height: 13px;
-  font-size: 4.5px;
+  font-size: 4px;
+  letter-spacing: 3px;
 }
 nav a {
   padding: 10px 0px 14px 0px;
